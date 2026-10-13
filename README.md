@@ -78,7 +78,7 @@ returned matching posts in that tab. Verified is the day we last ran it.
 | `-filter:replies` | Leaves out replies. | `nasa -filter:replies` | Yes | Yes | 2026-10-13 |
 | `filter:quote` | Only quote posts. | `nasa filter:quote` | Yes | Yes | 2026-10-13 |
 | `filter:nativeretweets` | Only reposts. | `nasa filter:nativeretweets` | Yes | Yes | 2026-10-13 |
-| `filter:retweets` | Only reposts. It matched filter:nativeretweets in our tests. | `nasa filter:retweets` | Yes | Yes | 2026-10-13 |
+| `filter:retweets` | Only reposts. It matched `filter:nativeretweets` in our tests. | `nasa filter:retweets` | Yes | Yes | 2026-10-13 |
 | `include:nativeretweets` | Adds reposts to the results. Search hides them by default. | `from:NASA include:nativeretweets` | Yes | Yes | 2026-10-13 |
 | `filter:self_threads` | Only replies an author sent to their own post, as in a thread. | `nasa filter:self_threads` | Yes | Yes | 2026-10-13 |
 | `conversation_id:` | Posts in the conversation that the post with this ID started. | `conversation_id:2109320622882873464` | Yes | Yes | 2026-10-13 |
