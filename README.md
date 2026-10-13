@@ -29,6 +29,10 @@ Copy 1 of these searches to start.
 | An account's media posts          | `from:NASA filter:media`                      |
 | Every reply in 1 conversation     | `conversation_id:2109320622882873464`         |
 
+```text
+from:NASA since:2026-09-01 until:2026-10-01
+```
+
 ## Twitter search operators
 
 Each row has 1 example that we ran on X. Latest & Top say whether the example
