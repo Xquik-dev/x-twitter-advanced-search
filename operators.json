@@ -263,7 +263,7 @@
         },
         {
           "operator": "filter:retweets",
-          "does": "Only reposts. It matched filter:nativeretweets in our tests.",
+          "does": "Only reposts. It matched `filter:nativeretweets` in our tests.",
           "example": "nasa filter:retweets",
           "expect": {
             "retweet": true
