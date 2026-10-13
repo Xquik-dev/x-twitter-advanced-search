@@ -1,0 +1,622 @@
+{
+  "groups": [
+    {
+      "title": "Words and phrases",
+      "operators": [
+        {
+          "operator": "word1 word2",
+          "does": "Posts that contain both words, in any order.",
+          "example": "climate energy",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "\"exact phrase\"",
+          "does": "Posts that contain the exact phrase.",
+          "example": "\"climate change\"",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "OR",
+          "does": "Posts that contain either term. Write OR in capitals.",
+          "example": "tesla OR rivian",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "-",
+          "does": "Leaves out posts that match the term after the hyphen.",
+          "example": "jaguar -car",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "( )",
+          "does": "Groups terms, so OR applies only inside the brackets.",
+          "example": "(nasa OR spacex) launch",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "#",
+          "does": "Posts with the hashtag.",
+          "example": "#photography",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "$",
+          "does": "Posts with the cashtag of a stock or coin.",
+          "example": "$TSLA",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "title": "Accounts",
+      "operators": [
+        {
+          "operator": "from:",
+          "does": "Posts sent by the account.",
+          "example": "from:NASA",
+          "expect": {
+            "author": "NASA"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "to:",
+          "does": "Posts addressed to the account, such as replies to it.",
+          "example": "to:NASA",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "@",
+          "does": "Posts that mention the account.",
+          "example": "@NASA",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "list:",
+          "does": "Posts by members of a public List. Use the List ID.",
+          "example": "list:1261769117331345415",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:verified",
+          "does": "Posts by verified accounts.",
+          "example": "nasa filter:verified",
+          "expect": {
+            "blueVerified": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:blue_verified",
+          "does": "Posts by accounts with a blue checkmark.",
+          "example": "nasa filter:blue_verified",
+          "expect": {
+            "blueVerified": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "title": "Dates and times",
+      "operators": [
+        {
+          "operator": "since:",
+          "does": "Posts sent on or after the UTC day.",
+          "example": "from:NASA since:2026-10-01",
+          "expect": {
+            "author": "NASA",
+            "since": "2026-10-01"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "until:",
+          "does": "Posts sent before the UTC day.",
+          "example": "from:NASA until:2026-01-01",
+          "expect": {
+            "author": "NASA",
+            "until": "2026-01-01"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "until:YYYY-MM-DD_HH:MM:SS_UTC",
+          "does": "Posts sent before the exact UTC time. Works with since too.",
+          "example": "from:NASA until:2026-01-01_00:00:00_UTC",
+          "expect": {
+            "author": "NASA",
+            "until": "2026-01-01"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "since_time:",
+          "does": "Posts sent at or after the Unix time in seconds.",
+          "example": "from:NASA since_time:1767225600",
+          "expect": {
+            "author": "NASA",
+            "since": "2026-01-01"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "until_time:",
+          "does": "Posts sent before the Unix time in seconds.",
+          "example": "from:NASA until_time:1767225600",
+          "expect": {
+            "author": "NASA",
+            "until": "2026-01-01"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "since_id:",
+          "does": "Posts newer than the post with this ID.",
+          "example": "from:NASA since_id:2000000000000000000",
+          "expect": {
+            "author": "NASA",
+            "since": "2025-12-14"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "max_id:",
+          "does": "Posts no newer than the post with this ID.",
+          "example": "from:NASA max_id:2000000000000000000",
+          "expect": {
+            "author": "NASA",
+            "until": "2025-12-15"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "within_time:",
+          "does": "Posts from the last period. 2d means the last 2 days.",
+          "example": "nasa within_time:2d",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "title": "Post types",
+      "operators": [
+        {
+          "operator": "filter:replies",
+          "does": "Only replies.",
+          "example": "nasa filter:replies",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "-filter:replies",
+          "does": "Leaves out replies.",
+          "example": "nasa -filter:replies",
+          "expect": {
+            "reply": false
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:quote",
+          "does": "Only quote posts.",
+          "example": "nasa filter:quote",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:nativeretweets",
+          "does": "Only reposts.",
+          "example": "nasa filter:nativeretweets",
+          "expect": {
+            "retweet": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:retweets",
+          "does": "Only reposts. It matched filter:nativeretweets in our tests.",
+          "example": "nasa filter:retweets",
+          "expect": {
+            "retweet": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "include:nativeretweets",
+          "does": "Adds reposts to the results. Search hides them by default.",
+          "example": "from:NASA include:nativeretweets",
+          "expect": {
+            "author": "NASA"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:self_threads",
+          "does": "Only replies an author sent to their own post, as in a thread.",
+          "example": "nasa filter:self_threads",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "conversation_id:",
+          "does": "Posts in the conversation that the post with this ID started.",
+          "example": "conversation_id:2109320622882873464",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "in_reply_to_tweet_id:",
+          "does": "Replies to the post with this ID.",
+          "example": "in_reply_to_tweet_id:2109320622882873464",
+          "expect": {
+            "reply": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "quoted_tweet_id:",
+          "does": "Quote posts of the post with this ID.",
+          "example": "quoted_tweet_id:2109320622882873464",
+          "expect": {
+            "quote": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "quoted_user_id:",
+          "does": "Quote posts of any post by the account with this ID.",
+          "example": "quoted_user_id:11348282",
+          "expect": {
+            "quote": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:spaces",
+          "does": "Posts that link to a Space.",
+          "example": "nasa filter:spaces",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "title": "Media and links",
+      "operators": [
+        {
+          "operator": "filter:media",
+          "does": "Posts with an image, video or GIF.",
+          "example": "nasa filter:media",
+          "expect": {
+            "media": "any"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:images",
+          "does": "Posts with an image.",
+          "example": "nasa filter:images",
+          "expect": {
+            "media": "photo"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:twimg",
+          "does": "Posts with an image uploaded to X.",
+          "example": "nasa filter:twimg",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:videos",
+          "does": "Posts with a video.",
+          "example": "nasa filter:videos",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:native_video",
+          "does": "Posts with a video uploaded to X.",
+          "example": "nasa filter:native_video",
+          "expect": {
+            "media": "video"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:links",
+          "does": "Posts with a link.",
+          "example": "nasa filter:links",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "url:",
+          "does": "Posts with a link that contains the text, such as a domain.",
+          "example": "url:github.com",
+          "expect": {
+            "links": true
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:hashtags",
+          "does": "Posts with at least 1 hashtag.",
+          "example": "nasa filter:hashtags",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:mentions",
+          "does": "Posts that mention at least 1 account.",
+          "example": "nasa filter:mentions",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:safe",
+          "does": "Posts that X does not mark as sensitive.",
+          "example": "nasa filter:safe",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "title": "Engagement",
+      "operators": [
+        {
+          "operator": "min_faves:",
+          "does": "Posts with at least this many likes.",
+          "example": "nasa min_faves:1000",
+          "expect": {
+            "minLikes": 1000
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "min_retweets:",
+          "does": "Posts with at least this many reposts.",
+          "example": "nasa min_retweets:500",
+          "expect": {
+            "minRetweets": 500
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "min_replies:",
+          "does": "Posts with at least this many replies.",
+          "example": "nasa min_replies:100",
+          "expect": {
+            "minReplies": 100
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "-min_faves:",
+          "does": "Posts with fewer likes than the number.",
+          "example": "nasa -min_faves:5",
+          "expect": {
+            "maxLikes": 4
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "-min_retweets:",
+          "does": "Posts with fewer reposts than the number.",
+          "example": "nasa -min_retweets:2",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "-min_replies:",
+          "does": "Posts with fewer replies than the number.",
+          "example": "nasa -min_replies:2",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "filter:has_engagement",
+          "does": "Posts with at least 1 like, reply or repost.",
+          "example": "nasa filter:has_engagement",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "title": "Language and place",
+      "operators": [
+        {
+          "operator": "lang:",
+          "does": "Posts in the language. Use its 2-letter code, such as ja or es.",
+          "example": "ramen lang:ja",
+          "expect": {
+            "lang": "ja"
+          },
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        },
+        {
+          "operator": "place:",
+          "does": "Posts tagged with the X place that has this ID.",
+          "example": "coffee place:96683cc9126741d1",
+          "latest": true,
+          "top": true,
+          "verified": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "retired": [
+    {
+      "operator": "filter:vine",
+      "does": "Posts with a Vine video.",
+      "example": "nasa filter:vine",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "filter:consumer_video",
+      "does": "Posts with a video from a personal account.",
+      "example": "nasa filter:consumer_video",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "filter:pro_video",
+      "does": "Posts with a video from a professional publisher.",
+      "example": "nasa filter:pro_video",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "filter:news",
+      "does": "Posts that link to a news site.",
+      "example": "nasa filter:news",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "retweets_of:",
+      "does": "Reposts of the account's posts.",
+      "example": "retweets_of:NASA",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "include:replies",
+      "does": "Added replies to the results. Search now shows them by default.",
+      "example": "nasa include:replies",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "source:",
+      "does": "Posts sent from the named app.",
+      "example": "nasa source:Twitter_for_iPhone",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "geocode:",
+      "does": "Posts near a latitude & longitude.",
+      "example": "coffee geocode:35.6762,139.6503,10km",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "within:",
+      "does": "The radius of a search near a place.",
+      "example": "coffee near:tokyo within:10km",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    },
+    {
+      "operator": "card_name:",
+      "does": "Posts with a card of the named type, such as a poll.",
+      "example": "vote card_name:poll2choice_text_only",
+      "latest": false,
+      "top": false,
+      "verified": "2026-10-13"
+    }
+  ]
+}
