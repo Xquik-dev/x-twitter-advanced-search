@@ -1,5 +1,7 @@
 # Twitter advanced search operators for X
 
+[![Convex Component](https://www.convex.dev/components/badge/convex-xquik)](https://www.convex.dev/components/convex-xquik)
+
 Twitter advanced search operators narrow a search to the exact posts you need.
 They work in X advanced search, in the search box & through an API. This page
 lists each operator we confirmed on X, with 1 tested example.
