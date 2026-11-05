@@ -3,8 +3,9 @@
 [![Convex Component](https://www.convex.dev/components/badge/convex-xquik)](https://www.convex.dev/components/convex-xquik)
 
 Twitter advanced search operators narrow a search to the exact posts you need.
-They work in X advanced search, in the search box & through an API. This page
-lists each operator we confirmed on X, with 1 tested example.
+Xquik tests every operator on X each week. They work in X advanced search, in
+the search box & through an API. This page lists each operator we confirmed on
+X, with 1 tested example.
 
 Last verified on 2026-10-13. We ran each example on X in the Latest & Top tabs.
 
@@ -39,7 +40,7 @@ Checked on 2026-10-25. See each number with its date & source on [xquik.com/trus
 
 <!-- trust:end -->
 
-## How to use Twitter advanced search
+## How to use Twitter advanced search on X
 
 1. Open [x.com/search-advanced](https://x.com/search-advanced), or use the
    search box on X.
@@ -67,6 +68,12 @@ from:NASA since:2026-09-01 until:2026-10-01
 
 Each row has 1 example that we ran on X. Latest & Top say whether the example
 returned matching posts in that tab. Verified is the day we last ran it.
+
+Combine operators with spaces. This search keeps popular posts & drops replies.
+
+```text
+nasa min_faves:1000 -filter:replies
+```
 
 ### Words and phrases
 
@@ -169,7 +176,13 @@ A filter keeps 1 kind of post. Write `filter:` & a name, such as
   to show reposts.
 - In Top, X can show the post a matching reply answers above that reply.
 
-## Search tweets by date
+## Twitter search by date to find old tweets
+
+This search returns an account's posts from 1 month.
+
+```text
+from:NASA since:2026-09-01 until:2026-10-01
+```
 
 - `since:` includes its day. `until:` leaves its day out.
 - X reads both days in UTC.
@@ -184,6 +197,10 @@ A filter keeps 1 kind of post. Write `filter:` & a name, such as
 Operators belong to X search itself, not to the advanced search form. Type or
 paste them into the search box on your phone. Then pick Top or Latest. The form
 at x.com/search-advanced also opens in a phone browser.
+
+```text
+ramen lang:ja filter:images
+```
 
 ## Operators X no longer honors
 
@@ -231,6 +248,7 @@ the search you ran & what X returned.
 - [X (Twitter) scraper API & Twitter MCP server](https://github.com/Xquik-dev/x-twitter-scraper) with REST, MCP & Skill setup.
 - Twitter API SDKs for [TypeScript](https://github.com/Xquik-dev/x-twitter-scraper-typescript), [Python](https://github.com/Xquik-dev/x-twitter-scraper-python), [Go](https://github.com/Xquik-dev/x-twitter-scraper-go), [Ruby](https://github.com/Xquik-dev/x-twitter-scraper-ruby), [Java](https://github.com/Xquik-dev/x-twitter-scraper-java), [Kotlin](https://github.com/Xquik-dev/x-twitter-scraper-kotlin), [C#](https://github.com/Xquik-dev/x-twitter-scraper-csharp) & [PHP](https://github.com/Xquik-dev/x-twitter-scraper-php).
 - [Twitter CLI & X CLI](https://github.com/Xquik-dev/x-twitter-scraper-cli) for terminal workflows.
+- Twitter agent plugins for [OpenClaw](https://github.com/Xquik-dev/tweetclaw) & [Hermes Agent](https://github.com/Xquik-dev/hermes-tweet), and the [Twitter API documentation source](https://github.com/Xquik-dev/xquik-docs).
 - [Xquik X API & Twitter scraper](https://xquik.com) and the [Twitter API documentation](https://docs.xquik.com/api-reference/overview).
 
 ## License

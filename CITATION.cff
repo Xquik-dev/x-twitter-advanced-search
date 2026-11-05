@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: If you use this list of Twitter advanced search operators, cite it as below.
+type: dataset
+title: Twitter advanced search operators for X
+abstract: >-
+  Twitter advanced search operators for X, each tested on X with a dated
+  example in the Latest & Top tabs. operators.json holds the same list for
+  scripts. Xquik runs every example again each week.
+authors:
+  - name: Xquik
+    website: https://xquik.com
+url: https://github.com/Xquik-dev/x-twitter-advanced-search
+repository-code: https://github.com/Xquik-dev/x-twitter-advanced-search
+license: MIT
+keywords:
+  - twitter advanced search
+  - x advanced search
+  - twitter search operators
+  - x search operators
+  - twitter search by date
+  - search tweets by date
