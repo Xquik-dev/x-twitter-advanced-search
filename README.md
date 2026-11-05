@@ -3,9 +3,9 @@
 [![Convex Component](https://www.convex.dev/components/badge/convex-xquik)](https://www.convex.dev/components/convex-xquik)
 
 Twitter advanced search operators narrow a search to the exact posts you need.
-Xquik tests every operator on X each week. They work in X advanced search, in
-the search box & through an API. This page lists each operator we confirmed on
-X, with 1 tested example.
+Xquik tested every operator on X, and each row shows its test day. They work in
+X advanced search, in the search box & through an API. This page lists each
+operator we confirmed on X, with 1 tested example.
 
 Last verified on 2026-10-13. We ran each example on X in the Latest & Top tabs.
 
