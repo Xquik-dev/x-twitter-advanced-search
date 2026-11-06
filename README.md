@@ -1,44 +1,16 @@
-# Twitter advanced search operators for X
+# Twitter Advanced Search Operators for X
 
-[![Convex Component](https://www.convex.dev/components/badge/convex-xquik)](https://www.convex.dev/components/convex-xquik)
+Use these Twitter advanced search operators from Xquik to find exact posts on X.
+They work in X advanced search, in the search box & through an API.
 
-Twitter advanced search operators narrow a search to the exact posts you need.
-Xquik tested every operator on X, and each row shows its test day. They work in
-X advanced search, in the search box & through an API. This page lists each
-operator we confirmed on X, with 1 tested example.
+Xquik is the world's fastest and cheapest X Twitter scraper service with the most complete X data.
+Most other Apify Actors charge before filtering or deduplication.
+Xquik charges only for delivered, unique, filter-matching results and never pads rows.
+Xquik is independent and not affiliated with X Corp.
 
-Last verified on 2026-10-13. We ran each example on X in the Latest & Top tabs.
-
-[Xquik](https://xquik.com) maintains this list. Xquik is the world's fastest and
-cheapest X Twitter scraper service with the most complete X data.
-
-<!-- trust:start -->
-
-## Trust & usage
-
-[![Twitter API package downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fdownloads.json)](https://xquik.com/trust#downloads)
-[![Twitter scraper users on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-users.json)](https://apify.com/xquik)
-[![Twitter scraper runs on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-runs.json)](https://apify.com/xquik)
-[![Tweet scraper rating on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-rating.json)](https://apify.com/xquik/x-tweet-scraper/reviews)
-[![Xquik Twitter API accounts](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Faccounts.json)](https://xquik.com/trust#accounts)
-[![Twitter Skill installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fskill-installs.json)](https://xquik.com/trust#skill-installs)
-[![Xquik verified revenue on TrustMRR](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Frevenue.json)](https://trustmrr.com/startup/xquik)
-[![Twitter API p99 server read time](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Frest-p99.json)](https://xquik.com/trust#speed)
-[![Xquik GitHub stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fgithub-stars.json)](https://github.com/Xquik-dev)
-
-- 53,000+ downloads of Xquik's Twitter API packages on npm, PyPI, RubyGems, NuGet, Packagist & Terraform ([source](https://xquik.com/trust#downloads)) <!-- trust:downloads 53547 -->
-- 9,500+ users of Xquik's Twitter scraper Actors on Apify ([source](https://apify.com/xquik)) <!-- trust:apify-users 9595 -->
-- 6,700,000+ runs of Xquik's Twitter scraper Actors on Apify ([source](https://apify.com/xquik)) <!-- trust:apify-runs 6765249 -->
-- 4.66 of 5 for the X Tweet Scraper from 16 Apify reviews ([source](https://apify.com/xquik/x-tweet-scraper/reviews)) <!-- trust:apify-rating 4.66 16 -->
-- 4,000+ accounts on xquik.com ([source](https://xquik.com/trust#accounts)) <!-- trust:accounts 4073 -->
-- 1,600+ installs of Xquik's Twitter Skills on skills.sh ([source](https://xquik.com/trust#skill-installs)) <!-- trust:skill-installs 1617 -->
-- $39,000+ in revenue verified by TrustMRR ([source](https://trustmrr.com/startup/xquik)) <!-- trust:revenue 39784 -->
-- 13.2 s p99 REST API server read time over 7 days, failed reads included ([source](https://xquik.com/trust#speed)) <!-- trust:rest-p99 13194 -->
-- 380+ GitHub stars across Xquik's repos ([source](https://github.com/Xquik-dev)) <!-- trust:github-stars 383 -->
-
-Checked on 2026-10-25. See each number with its date & source on [xquik.com/trust](https://xquik.com/trust) or as [JSON](https://xquik.com/trust.json).
-
-<!-- trust:end -->
+<!-- trust:win:start -->
+The Xquik X Tweet Scraper read 170 tweets per second at $0.155 per 1,000 on 2026-10-15. The fastest of 4 rival Actors read 12.5 per second. The cheapest cost $0.173 per 1,000. [Compare each run](https://xquik.com/benchmarks#benchmark-x-tweet-scraper).
+<!-- trust:win:end -->
 
 ## How to use Twitter advanced search on X
 
@@ -64,10 +36,30 @@ Copy 1 of these searches to start.
 from:NASA since:2026-09-01 until:2026-10-01
 ```
 
+Next, read the [operator tables](#twitter-search-operators), the [date search guide](#twitter-search-by-date-to-find-old-tweets) or the [tweet search docs](https://docs.xquik.com/api-reference/x/search-tweets).
+
+<!-- trust:start -->
+
+## Benchmarks & usage
+
+[![Twitter scraper runs on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-runs.json)](https://apify.com/xquik)
+[![Tweet scraper rating on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-rating.json)](https://apify.com/xquik/x-tweet-scraper/reviews)
+
+- 8,200,000+ runs of Xquik's Twitter scraper Actors on Apify ([source](https://apify.com/xquik)) <!-- trust:apify-runs 8243980 -->
+- 4.66 of 5 for the X Tweet Scraper from 16 Apify reviews ([source](https://apify.com/xquik/x-tweet-scraper/reviews)) <!-- trust:apify-rating 4.66 16 -->
+
+Checked on 2026-11-06. See each number with its date & source on [xquik.com/benchmarks](https://xquik.com/benchmarks) or as [JSON](https://xquik.com/trust.json).
+
+<!-- trust:end -->
+
 ## Twitter search operators
 
-Each row has 1 example that we ran on X. Latest & Top say whether the example
-returned matching posts in that tab. Verified is the day we last ran it.
+Last verified on 2026-10-13.
+We ran each example on X in the Latest & Top tabs.
+
+Each row has 1 example that we ran on X.
+Latest & Top say whether the example returned matching posts in that tab.
+Verified is the day we last ran it.
 
 Combine operators with spaces. This search keeps popular posts & drops replies.
 
@@ -194,9 +186,10 @@ from:NASA since:2026-09-01 until:2026-10-01
 
 ## Twitter advanced search on mobile
 
-Operators belong to X search itself, not to the advanced search form. Type or
-paste them into the search box on your phone. Then pick Top or Latest. The form
-at x.com/search-advanced also opens in a phone browser.
+Operators belong to X search itself, not to the advanced search form.
+Type or paste them into the search box on your phone.
+Then pick Top or Latest.
+The form at x.com/search-advanced also opens in a phone browser.
 
 ```text
 ramen lang:ja filter:images
@@ -204,9 +197,9 @@ ramen lang:ja filter:images
 
 ## Operators X no longer honors
 
-X returned no posts for these examples in the Latest & Top tabs. Remove them
-from your saved searches. We leave out `near:` because its results were
-inconsistent in our tests.
+X returned no posts for these examples in the Latest & Top tabs.
+Remove them from your saved searches.
+We leave out `near:` because its results were inconsistent in our tests.
 
 | Operator | What it did | Example | Verified |
 | --- | --- | --- | --- |
@@ -223,7 +216,7 @@ inconsistent in our tests.
 
 ## Run these searches through an API
 
-Xquik runs the same operators through a REST API, an MCP server & Apify Actors.
+Xquik runs these operators through a REST API, MCP server & Apify Actors.
 You pay only for delivered, unique posts that match your filters.
 
 - Read the [tweet search docs](https://docs.xquik.com/api-reference/x/search-tweets).
@@ -232,16 +225,26 @@ You pay only for delivered, unique posts that match your filters.
 
 ## How this list stays current
 
-- We run every example again each week.
+- We run every example again by hand, with no fixed schedule.
 - Each run updates the Verified day of every operator.
 - We review an operator that changed before its row changes.
 - [operators.json](operators.json) holds the same data for scripts.
 
+## Questions
+
+### Do I need an X developer account?
+
+No. Operators work in the search box on X.
+API searches need only an Xquik API key.
+
+### Is this the official X search documentation?
+
+No. Xquik tested these operators on X & maintains this list.
+
 ## Report a change
 
-Did an operator stop working, or did we miss 1? Open an
-[issue](https://github.com/Xquik-dev/x-twitter-advanced-search/issues/new) with
-the search you ran & what X returned.
+Did an operator stop working, or did we miss 1?
+Open an [issue](https://github.com/Xquik-dev/x-twitter-advanced-search/issues/new) with the search you ran & what X returned.
 
 ## More Xquik tools
 
@@ -255,5 +258,4 @@ the search you ran & what X returned.
 
 [MIT](LICENSE)
 
-> Xquik is an independent third-party service. Not affiliated with X Corp.
-> "Twitter" and "X" are trademarks of X Corp.
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
