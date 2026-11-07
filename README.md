@@ -1,9 +1,9 @@
 # Twitter Advanced Search Operators for X
 
-Use these Twitter advanced search operators from Xquik to find exact posts on X.
+Use Xquik's Twitter advanced search operators to find tweets & posts on X (Twitter).
 They work in X advanced search, in the search box & through an API.
 
-Xquik is the world's fastest and cheapest X Twitter scraper service with the most complete X data.
+Xquik is the world's fastest and cheapest X (Twitter) scraper service with the most complete X (Twitter) data.
 Most other Apify Actors charge before filtering or deduplication.
 Xquik charges only for delivered, unique, filter-matching results and never pads rows.
 Xquik is independent and not affiliated with X Corp.
@@ -15,9 +15,9 @@ The Xquik X Tweet Scraper read 170 tweets per second at $0.155 per 1,000 on 2026
 ## How to use Twitter advanced search on X
 
 1. Open [x.com/search-advanced](https://x.com/search-advanced), or use the
-   search box on X.
+   search box on X (Twitter).
 2. Type your words, then add operators from the tables below.
-3. Separate operators with spaces. X returns posts that match all of them.
+3. Separate operators with spaces. X (Twitter) returns the tweets & posts that match all of them.
 4. Put a hyphen before an operator to leave its matches out.
 5. Pick Latest for the newest posts, or Top for the most popular.
 
@@ -55,9 +55,9 @@ Checked on 2026-11-06. See each number with its date & source on [xquik.com/benc
 ## Twitter search operators
 
 Last verified on 2026-10-13.
-We ran each example on X in the Latest & Top tabs.
+We ran each example on X (Twitter) in the Latest & Top tabs.
 
-Each row has 1 example that we ran on X.
+Each row has 1 example that we ran on X (Twitter).
 Latest & Top say whether the example returned matching posts in that tab.
 Verified is the day we last ran it.
 
@@ -166,7 +166,7 @@ A filter keeps 1 kind of post. Write `filter:` & a name, such as
   posts.
 - Search shows replies & hides reposts by default. Add `include:nativeretweets`
   to show reposts.
-- In Top, X can show the post a matching reply answers above that reply.
+- In Top, X (Twitter) can show the answered post above its matching reply.
 
 ## Twitter search by date to find old tweets
 
@@ -177,7 +177,7 @@ from:NASA since:2026-09-01 until:2026-10-01
 ```
 
 - `since:` includes its day. `until:` leaves its day out.
-- X reads both days in UTC.
+- X (Twitter) reads both days in UTC.
 - For 1 full day, set `until:` to the next day, as in
   `since:2026-10-01 until:2026-10-02`.
 - For an exact time, write `until:2026-01-01_00:00:00_UTC`.
@@ -186,7 +186,7 @@ from:NASA since:2026-09-01 until:2026-10-01
 
 ## Twitter advanced search on mobile
 
-Operators belong to X search itself, not to the advanced search form.
+Operators belong to X (Twitter) search itself, not to the advanced search form.
 Type or paste them into the search box on your phone.
 Then pick Top or Latest.
 The form at x.com/search-advanced also opens in a phone browser.
@@ -197,7 +197,7 @@ ramen lang:ja filter:images
 
 ## Operators X no longer honors
 
-X returned no posts for these examples in the Latest & Top tabs.
+X (Twitter) returned no posts for these examples in the Latest & Top tabs.
 Remove them from your saved searches.
 We leave out `near:` because its results were inconsistent in our tests.
 
@@ -232,19 +232,19 @@ You pay only for delivered, unique posts that match your filters.
 
 ## Questions
 
-### Do I need an X developer account?
+### Do I need an X (Twitter) developer account?
 
-No. Operators work in the search box on X.
+No. Operators work in the search box on X (Twitter).
 API searches need only an Xquik API key.
 
-### Is this the official X search documentation?
+### Is this the official X (Twitter) search documentation?
 
-No. Xquik tested these operators on X & maintains this list.
+No. Xquik tested these operators on X (Twitter) & maintains this list.
 
 ## Report a change
 
 Did an operator stop working, or did we miss 1?
-Open an [issue](https://github.com/Xquik-dev/x-twitter-advanced-search/issues/new) with the search you ran & what X returned.
+Open an [issue](https://github.com/Xquik-dev/x-twitter-advanced-search/issues/new) with the search you ran & what X (Twitter) returned.
 
 ## More Xquik tools
 
