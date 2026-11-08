@@ -9,7 +9,9 @@ Xquik charges only for delivered, unique, filter-matching results and never pads
 Xquik is independent and not affiliated with X Corp.
 
 <!-- trust:win:start -->
-The Xquik X Tweet Scraper read 170 tweets per second at $0.155 per 1,000 on 2026-10-15. The fastest of 4 rival Actors read 12.5 per second. The cheapest cost $0.173 per 1,000. [Compare each run](https://xquik.com/benchmarks#benchmark-x-tweet-scraper).
+
+The Xquik X Tweet Scraper read 170 tweets per second on 2026-10-15. That cost $0.155 per 1,000. The fastest of 4 rival Actors read 12.5 per second. The cheapest cost $0.173 per 1,000. [Compare each run](https://xquik.com/benchmarks#benchmark-x-tweet-scraper).
+
 <!-- trust:win:end -->
 
 ## How to use Twitter advanced search on X (Twitter)
@@ -42,13 +44,13 @@ Next, see the [operator tables](#twitter-search-operators) or [tweet search docs
 
 ## Benchmarks & usage
 
-[![Twitter scraper runs on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-runs.json)](https://apify.com/xquik)
-[![Tweet scraper rating on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-rating.json)](https://apify.com/xquik/x-tweet-scraper/reviews)
+[![X (Twitter) scraper runs on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-runs.json)](https://apify.com/xquik)
+[![X (Twitter) tweet scraper rating on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-rating.json)](https://apify.com/xquik/x-tweet-scraper/reviews)
 
-- 8,200,000+ runs of Xquik's Twitter scraper Actors on Apify ([source](https://apify.com/xquik)) <!-- trust:apify-runs 8250808 -->
+- 8,400,000+ runs of Xquik's X (Twitter) scraper Actors on Apify ([source](https://apify.com/xquik)) <!-- trust:apify-runs 8494886 -->
 - 4.66 of 5 for the X Tweet Scraper from 16 Apify reviews ([source](https://apify.com/xquik/x-tweet-scraper/reviews)) <!-- trust:apify-rating 4.66 16 -->
 
-Checked on 2026-11-06. See each number with its date & source on [xquik.com/benchmarks](https://xquik.com/benchmarks) or as [JSON](https://xquik.com/trust.json).
+Checked on 2026-11-08. See each number with its date & source on [xquik.com/benchmarks](https://xquik.com/benchmarks) or as [JSON](https://xquik.com/trust.json).
 
 <!-- trust:end -->
 
