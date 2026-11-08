@@ -244,7 +244,7 @@
         },
         {
           "operator": "filter:quote",
-          "does": "Only quote posts.",
+          "does": "Only quote tweets.",
           "example": "nasa filter:quote",
           "latest": true,
           "top": true,
@@ -312,7 +312,7 @@
         },
         {
           "operator": "quoted_tweet_id:",
-          "does": "Quote posts of the post with this ID.",
+          "does": "Quote tweets of the post with this ID.",
           "example": "quoted_tweet_id:2109320622882873464",
           "expect": {
             "quote": true
@@ -323,7 +323,7 @@
         },
         {
           "operator": "quoted_user_id:",
-          "does": "Quote posts of any post by the account with this ID.",
+          "does": "Quote tweets of any post by the account with this ID.",
           "example": "quoted_user_id:11348282",
           "expect": {
             "quote": true
