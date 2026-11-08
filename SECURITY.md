@@ -11,4 +11,11 @@ Do not open a public issue or pull request for a security finding.
 
 ## Response
 
-We answer within 24 hours & finish triage within 72 hours.
+We send a first reply within 3 business days & a triage result within 14 days.
+
+## Rewards
+
+Rewards can be monetary & depend on the bug's impact. Xquik decides each reward,
+& not every report earns one. The
+[bug bounty & vulnerability disclosure policy](https://xquik.com/en/vulnerability-disclosure)
+lists the scope & test rules.
