@@ -1,7 +1,7 @@
 # Twitter Advanced Search Operators for X
 
 Use Xquik's Twitter advanced search operators to find tweets & posts on X (Twitter).
-They work in X advanced search, in the search box & through an API.
+They work in X (Twitter) advanced search, in the search box & through an API.
 
 Xquik is the world's fastest and cheapest X (Twitter) scraper service with the most complete X (Twitter) data.
 Most other Apify Actors charge before filtering or deduplication.
@@ -12,7 +12,7 @@ Xquik is independent and not affiliated with X Corp.
 The Xquik X Tweet Scraper read 170 tweets per second at $0.155 per 1,000 on 2026-10-15. The fastest of 4 rival Actors read 12.5 per second. The cheapest cost $0.173 per 1,000. [Compare each run](https://xquik.com/benchmarks#benchmark-x-tweet-scraper).
 <!-- trust:win:end -->
 
-## How to use Twitter advanced search on X
+## How to use Twitter advanced search on X (Twitter)
 
 1. Open [x.com/search-advanced](https://x.com/search-advanced), or use the
    search box on X (Twitter).
@@ -109,15 +109,15 @@ nasa min_faves:1000 -filter:replies
 | --- | --- | --- | --- | --- | --- |
 | `filter:replies` | Only replies. | `nasa filter:replies` | Yes | Yes | 2026-10-13 |
 | `-filter:replies` | Leaves out replies. | `nasa -filter:replies` | Yes | Yes | 2026-10-13 |
-| `filter:quote` | Only quote posts. | `nasa filter:quote` | Yes | Yes | 2026-10-13 |
+| `filter:quote` | Only quote tweets. | `nasa filter:quote` | Yes | Yes | 2026-10-13 |
 | `filter:nativeretweets` | Only reposts. | `nasa filter:nativeretweets` | Yes | Yes | 2026-10-13 |
 | `filter:retweets` | Only reposts. It matched `filter:nativeretweets` in our tests. | `nasa filter:retweets` | Yes | Yes | 2026-10-13 |
 | `include:nativeretweets` | Adds reposts to the results. Search hides them by default. | `from:NASA include:nativeretweets` | Yes | Yes | 2026-10-13 |
 | `filter:self_threads` | Only replies an author sent to their own post, as in a thread. | `nasa filter:self_threads` | Yes | Yes | 2026-10-13 |
 | `conversation_id:` | Posts in the conversation that the post with this ID started. | `conversation_id:2109320622882873464` | Yes | Yes | 2026-10-13 |
 | `in_reply_to_tweet_id:` | Replies to the post with this ID. | `in_reply_to_tweet_id:2109320622882873464` | Yes | Yes | 2026-10-13 |
-| `quoted_tweet_id:` | Quote posts of the post with this ID. | `quoted_tweet_id:2109320622882873464` | Yes | Yes | 2026-10-13 |
-| `quoted_user_id:` | Quote posts of any post by the account with this ID. | `quoted_user_id:11348282` | Yes | Yes | 2026-10-13 |
+| `quoted_tweet_id:` | Quote tweets of the post with this ID. | `quoted_tweet_id:2109320622882873464` | Yes | Yes | 2026-10-13 |
+| `quoted_user_id:` | Quote tweets of any post by the account with this ID. | `quoted_user_id:11348282` | Yes | Yes | 2026-10-13 |
 | `filter:spaces` | Posts that link to a Space. | `nasa filter:spaces` | Yes | Yes | 2026-10-13 |
 
 ### Media and links
@@ -248,13 +248,13 @@ Open an [issue](https://github.com/Xquik-dev/x-twitter-advanced-search/issues/ne
 
 ## More Xquik tools
 
-- [X (Twitter) scraper API & Twitter MCP server](https://github.com/Xquik-dev/x-twitter-scraper) with REST, MCP & Skill setup.
-- Twitter API SDKs for [TypeScript](https://github.com/Xquik-dev/x-twitter-scraper-typescript), [Python](https://github.com/Xquik-dev/x-twitter-scraper-python), [Go](https://github.com/Xquik-dev/x-twitter-scraper-go) & [Ruby](https://github.com/Xquik-dev/x-twitter-scraper-ruby).
-- Twitter API SDKs for [Java](https://github.com/Xquik-dev/x-twitter-scraper-java), [Kotlin](https://github.com/Xquik-dev/x-twitter-scraper-kotlin), [C#](https://github.com/Xquik-dev/x-twitter-scraper-csharp) & [PHP](https://github.com/Xquik-dev/x-twitter-scraper-php).
+- [X (Twitter) scraper API & X (Twitter) MCP server](https://github.com/Xquik-dev/x-twitter-scraper) with REST, MCP & Skill setup.
+- X (Twitter) API SDKs for [TypeScript](https://github.com/Xquik-dev/x-twitter-scraper-typescript), [Python](https://github.com/Xquik-dev/x-twitter-scraper-python), [Go](https://github.com/Xquik-dev/x-twitter-scraper-go) & [Ruby](https://github.com/Xquik-dev/x-twitter-scraper-ruby).
+- X (Twitter) API SDKs for [Java](https://github.com/Xquik-dev/x-twitter-scraper-java), [Kotlin](https://github.com/Xquik-dev/x-twitter-scraper-kotlin), [C#](https://github.com/Xquik-dev/x-twitter-scraper-csharp) & [PHP](https://github.com/Xquik-dev/x-twitter-scraper-php).
 - [Twitter CLI & X CLI](https://github.com/Xquik-dev/x-twitter-scraper-cli) for terminal workflows.
 - Twitter agent plugins for [OpenClaw](https://github.com/Xquik-dev/tweetclaw) & [Hermes Agent](https://github.com/Xquik-dev/hermes-tweet).
-- [Twitter API documentation source](https://github.com/Xquik-dev/xquik-docs) with every public page.
-- [Xquik X API & Twitter scraper](https://xquik.com) and the [Twitter API documentation](https://docs.xquik.com/api-reference/overview).
+- [X (Twitter) API documentation source](https://github.com/Xquik-dev/xquik-docs) with every public page.
+- [Xquik X API & Twitter scraper](https://xquik.com) and the [X (Twitter) API documentation](https://docs.xquik.com/api-reference/overview).
 
 ## License
 
