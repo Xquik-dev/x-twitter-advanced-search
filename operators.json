@@ -9,7 +9,7 @@
           "example": "climate energy",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "\"exact phrase\"",
@@ -17,7 +17,7 @@
           "example": "\"climate change\"",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "OR",
@@ -25,7 +25,7 @@
           "example": "tesla OR rivian",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "-",
@@ -33,7 +33,7 @@
           "example": "jaguar -car",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "( )",
@@ -41,7 +41,7 @@
           "example": "(nasa OR spacex) launch",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "#",
@@ -49,7 +49,7 @@
           "example": "#photography",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "$",
@@ -57,7 +57,7 @@
           "example": "$TSLA",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     },
@@ -73,7 +73,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "to:",
@@ -81,7 +81,7 @@
           "example": "to:NASA",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "@",
@@ -89,7 +89,7 @@
           "example": "@NASA",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "list:",
@@ -97,7 +97,7 @@
           "example": "list:1261769117331345415",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:verified",
@@ -108,7 +108,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:blue_verified",
@@ -119,7 +119,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     },
@@ -136,7 +136,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "until:",
@@ -148,7 +148,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "until:YYYY-MM-DD_HH:MM:SS_UTC",
@@ -160,7 +160,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "since_time:",
@@ -172,7 +172,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "until_time:",
@@ -184,7 +184,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "since_id:",
@@ -196,7 +196,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "max_id:",
@@ -208,7 +208,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "within_time:",
@@ -216,7 +216,7 @@
           "example": "nasa within_time:2d",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     },
@@ -229,7 +229,7 @@
           "example": "nasa filter:replies",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "-filter:replies",
@@ -240,7 +240,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:quote",
@@ -248,7 +248,7 @@
           "example": "nasa filter:quote",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:nativeretweets",
@@ -259,7 +259,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:retweets",
@@ -270,7 +270,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "include:nativeretweets",
@@ -281,7 +281,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:self_threads",
@@ -289,7 +289,7 @@
           "example": "nasa filter:self_threads",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "conversation_id:",
@@ -297,7 +297,7 @@
           "example": "conversation_id:2109320622882873464",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "in_reply_to_tweet_id:",
@@ -308,7 +308,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "quoted_tweet_id:",
@@ -319,7 +319,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "quoted_user_id:",
@@ -330,7 +330,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:spaces",
@@ -338,7 +338,7 @@
           "example": "nasa filter:spaces",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     },
@@ -354,7 +354,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:images",
@@ -365,7 +365,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:twimg",
@@ -373,7 +373,7 @@
           "example": "nasa filter:twimg",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:videos",
@@ -381,7 +381,7 @@
           "example": "nasa filter:videos",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:native_video",
@@ -392,7 +392,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:links",
@@ -400,7 +400,7 @@
           "example": "nasa filter:links",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "url:",
@@ -411,7 +411,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:hashtags",
@@ -419,7 +419,7 @@
           "example": "nasa filter:hashtags",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:mentions",
@@ -427,7 +427,7 @@
           "example": "nasa filter:mentions",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:safe",
@@ -435,7 +435,7 @@
           "example": "nasa filter:safe",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     },
@@ -451,7 +451,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "min_retweets:",
@@ -462,7 +462,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "min_replies:",
@@ -473,7 +473,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "-min_faves:",
@@ -484,7 +484,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "-min_retweets:",
@@ -492,7 +492,7 @@
           "example": "nasa -min_retweets:2",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "-min_replies:",
@@ -500,7 +500,7 @@
           "example": "nasa -min_replies:2",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "filter:has_engagement",
@@ -508,7 +508,7 @@
           "example": "nasa filter:has_engagement",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     },
@@ -524,7 +524,7 @@
           },
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         },
         {
           "operator": "place:",
@@ -532,7 +532,7 @@
           "example": "coffee place:96683cc9126741d1",
           "latest": true,
           "top": true,
-          "verified": "2026-10-13"
+          "verified": "2026-11-09"
         }
       ]
     }
@@ -544,7 +544,7 @@
       "example": "nasa filter:vine",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "filter:consumer_video",
@@ -552,7 +552,7 @@
       "example": "nasa filter:consumer_video",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "filter:pro_video",
@@ -560,7 +560,7 @@
       "example": "nasa filter:pro_video",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "filter:news",
@@ -568,7 +568,7 @@
       "example": "nasa filter:news",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "retweets_of:",
@@ -576,7 +576,7 @@
       "example": "retweets_of:NASA",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "include:replies",
@@ -584,7 +584,7 @@
       "example": "nasa include:replies",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "source:",
@@ -592,7 +592,7 @@
       "example": "nasa source:Twitter_for_iPhone",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "geocode:",
@@ -600,7 +600,7 @@
       "example": "coffee geocode:35.6762,139.6503,10km",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "within:",
@@ -608,7 +608,7 @@
       "example": "coffee near:tokyo within:10km",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     },
     {
       "operator": "card_name:",
@@ -616,7 +616,7 @@
       "example": "vote card_name:poll2choice_text_only",
       "latest": false,
       "top": false,
-      "verified": "2026-10-13"
+      "verified": "2026-11-09"
     }
   ]
 }
