@@ -1,5 +1,9 @@
 # Twitter Advanced Search Operators for X
 
+[![Framer builds a tweet ticker with Xquik](https://img.youtube.com/vi/4UOSpoOoC3Y/maxresdefault.jpg)](https://youtu.be/4UOSpoOoC3Y?t=367)\
+[Watch Framer build a tweet ticker with Xquik, from 6:07](https://youtu.be/4UOSpoOoC3Y?t=367).
+Xquik's API takes these search operators too.
+
 Use Xquik's Twitter advanced search operators to find tweets & posts on X (Twitter).
 They work in X (Twitter) advanced search, in the search box & through an API.
 
